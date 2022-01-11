@@ -1,0 +1,124 @@
+.header {
+    background-color: #fde6c2;
+   
+  }
+  h1 {
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+    padding-right: 2px;
+    padding-inline-start: 12px;
+   
+    }
+    .btn-warning:hover {
+        color: rgb(0, 0, 0);
+        background-color: #ffe9a7;
+        border-color: #fff1c9;
+    }
+    .botao1 {
+        color: white;
+        padding: 10px 80px;
+        background-color: #faa60a;
+        border-radius: 0.25rem;
+        
+    }
+    .botao2 {
+      color: rgb(0, 0, 0);
+      padding: 10px 80px;
+      background-color: #fffdfb;
+      border-radius: 0.25rem; 
+      margin: 0 15px;
+  }
+    .recommend__friends {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      .recommend__photo {
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+      .recommend__photo:not(:last-child) {
+        margin-right: -2rem;
+      }
+      h5{
+        text-align: center;
+      }
+      .imagenspatrocinios{
+        text-align: center;
+        
+      }
+      numero{
+        color: gray;
+        font-size: 5rem;
+      }
+      .lolo{
+        justify-content: center;
+        
+      }
+      h8{
+        font-size: 2rem;  
+        text-align: center;
+        justify-content: center;
+
+      }
+      .recommend__friends2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      .recommend__photo2 {
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+      .card {
+        border:none;
+        padding: 10px 50px;
+      }
+  
+      .card::after {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+  
+      .card:hover {
+  
+  
+        transform: scale(1.02, 1.02);
+        -webkit-transform: scale(1.02, 1.02);
+        backface-visibility: hidden; 
+        will-change: transform;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+      }
+  
+      .card:hover::after {
+        opacity: 1;
+      }
+  
+      .card:hover .btn-outline-primary{
+        color:white;
+        background:#007bff;
+      }
+  
+.footer {
+  background-color: #ffffff;
+  grid-column: full-start / full-end;
+  padding: 8rem;
+}
+.novocontainer{
+  background-color: #eb8252;
+  
+  padding: 1.5rem;
+}
