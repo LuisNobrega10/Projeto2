@@ -415,7 +415,7 @@
                     </div>
 
                     <div class="card-body text-center">
-                        <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+                        <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Começar já...</button>
                     </div>
                 </div>
             </div>
@@ -462,7 +462,7 @@
 <div class="novocontainer">
     <div class="container">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-8">
                 <h1>
                     A primeira refeição é grátis!
 
@@ -475,17 +475,19 @@
                     fazer uma pausa a qualquer momento. E a primeira refeição é por nossa conta!
                 </p>
                 <br>
-                
+                <div class="container">
+                <div class="row">
+                <div class="col-6">
+
                 <form>
                     <label for="fname">Nome completo: </label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Email:</label><br>
-                    <input type="text" id="lname" name="lname">
-                </form>
+                    <input type="text" id="fname" class="form-control" name="fname"><br>
+                
+                <br>
+               
                 <p>Como soube das nossas refeições?</p>
-
                 <form action="/action_page.php">
-                    <select id="cars" name="cars">
+                    <select id="cars" class="form-control" name="cars">
                         <option value="">Escolha uma das opções:</option>
                         <option value="friends">Família ou amigos</option>
                         <option value="youtube">YouTube</option>
@@ -493,13 +495,20 @@
                         <option value="ad">Facebook</option>
                         <option value="others">Outros</option>
                     </select>
-                    <input type="submit">
+                    
                 </form>
-
-
-
             </div>
-            <div class="col-sm">
+                <div class="col-6 ">
+                    <label for="lname">Email:</label><br>
+                    <input type="text" class="form-control" id="lname" name="lname">
+                </form>
+                <br> <br> <br> <br> 
+                <button type="button" class="botao2 m-0">Submeter  </button>
+            </div>
+        </div>  
+    </div>
+            </div>
+            <div class="col-4">
                 <h1>
                     <img src="eating.jpg" alt="" height="400">
 
